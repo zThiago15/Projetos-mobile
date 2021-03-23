@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Voltar" />
+
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                                     CADASTRO DE CLIENTES" />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/adcFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                                              Adicionar Foto" />
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nome: " />
+
+    <EditText
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Endereço: " />
+
+
+    <EditText
+        android:id="@+id/telefone"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Telefone: " />
+
+    <View
+        android:id="@+id/divisor"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/botão"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:text="Enviar" />
+
+    <TextView
+        android:id="@+id/avaliar"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="                       NOS AVALIE!" />
+
+    <RatingBar
+        android:id="@+id/classificar"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp" />
+
+
+</LinearLayout>

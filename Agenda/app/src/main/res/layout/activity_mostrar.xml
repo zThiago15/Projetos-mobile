@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Mostrar" >
+
+    <TextView
+        android:id="@+id/vNome"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="Nome: " />
+
+    <TextView
+        android:id="@+id/vEmail"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Email: " />
+
+    <TextView
+        android:id="@+id/vCelular"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Celular: " />
+
+    <TextView
+        android:id="@+id/vTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Telefone: " />
+
+    <TextView
+        android:id="@+id/vEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Endereço: " />
+
+    <TextView
+        android:id="@+id/vBairro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Bairro: " />
+
+    <TextView
+        android:id="@+id/vCidade"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Cidade: " />
+
+    <TextView
+        android:id="@+id/vEstado"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Estado: " />
+
+    <Button
+        android:id="@+id/bttermina"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:text="Confirma" />
+</LinearLayout>

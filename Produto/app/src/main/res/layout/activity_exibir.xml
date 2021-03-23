@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exibir">
+
+
+    <TextView
+        android:id="@+id/vCodigobar"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="Código de barras: "
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/vNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Nome: " />
+
+    <TextView
+        android:id="@+id/vPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Preço: R$" />
+
+    <TextView
+        android:id="@+id/vCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Categoria: " />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Confirmar" />
+
+</LinearLayout>

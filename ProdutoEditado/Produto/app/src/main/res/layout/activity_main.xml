@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_blue_light">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="Produto"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        />
+
+    <ImageView
+        android:id="@+id/imgCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        app:srcCompat="?attr/actionModePasteDrawable" />
+
+    <Button
+        android:id="@+id/btcadastro"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:text="Iniciar cadastro" />
+
+    <Button
+        android:id="@+id/btitens"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:text="Visualizar produtos cadastrados" />
+
+</LinearLayout>
